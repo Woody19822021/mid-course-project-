@@ -11,8 +11,7 @@ document.getElementById("list1").innerHTML = data.drinks[0].strIngredient1
 document.getElementById("list2").innerHTML = data.drinks[0].strIngredient2
 document.getElementById("list3").innerHTML = data.drinks[0].strIngredient3
 document.getElementById("list4").innerHTML = data.drinks[0].strIngredient4
-
-
+document.getElementById("list5").innerHTML = data.drinks[0].strIngredient5
 
 })
 .catch(rej => console.log(rej))
